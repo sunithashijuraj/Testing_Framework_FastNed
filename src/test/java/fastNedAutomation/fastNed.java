@@ -155,8 +155,8 @@ public class fastNed {
 	@Test(priority = 4)
 	public void clickIcon() throws InterruptedException {
 		ExtentTest test = extent.createTest("User clicks on one of the location markers");
-		System.out.println(driver.findElement(By.xpath("(//div[@class='gm-style']/div[2]/div/following-sibling::div/div/div[3]/div/following-sibling::div[8]/img)[1]")).isDisplayed());
-		System.out.println(driver.findElement(By.xpath("(//div[@class='gm-style']/div[2]/div/following-sibling::div/div/div[3]/div/following-sibling::div[8]/img)[1]")).isEnabled());
+		driver.findElement(By.xpath("(//div[@class='gm-style']/div[2]/div/following-sibling::div/div/div[3]/div/following-sibling::div[8]/img)[1]")).isDisplayed();
+	    driver.findElement(By.xpath("(//div[@class='gm-style']/div[2]/div/following-sibling::div/div/div[3]/div/following-sibling::div[8]/img)[1]")).isEnabled();
 		WebElement icon = driver.findElement(By.xpath("(//div[@class='gm-style']/div[2]/div/following-sibling::div/div/div[3]/div/following-sibling::div[8]/img)[1]"));
 		Actions builder1 = new Actions(driver);
 		builder1.moveToElement(icon).click().perform();
