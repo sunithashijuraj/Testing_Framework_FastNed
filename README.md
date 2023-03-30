@@ -33,7 +33,7 @@ git clone -b Master (https://github.com/sunithashijuraj/Testing_Framework_FastNe
 ```
 
 Open the project in any IDE Eclipse/IntelliJ.
-Navigate to "fastnedframework" folder where we have pom.xml
+In Terminal Navigate to the <foldername> folder where we have pom.xml
 
 Run the below command where "-DExecutionMode" parameter value can be updated "local" or "remote".
 
