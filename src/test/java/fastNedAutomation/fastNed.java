@@ -31,7 +31,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebElement;
 
 public class fastNed {
-
 	public static WebDriver driver;
 
 	public static String ExecutionModeValue="";
