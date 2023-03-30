@@ -28,7 +28,7 @@ testng.xml                    TestRunner class for TestNG framework
 -Clone the project with below command
 
 ```
-git clone -b Master https://github.com/sunithashijuraj/FastNed
+git clone -b Master (https://github.com/sunithashijuraj/Testing_Framework_FastNed)
 
 ```
 
